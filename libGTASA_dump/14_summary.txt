@@ -1,0 +1,9 @@
+File: libGTASA.so
+Size:
+12M	libGTASA.so
+
+SHA256:
+46c1a97f5423520e4965850cc034648e8a2a11c95f55b24788a4fa208506b9db  libGTASA.so
+
+Architecture:
+libGTASA.so: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, stripped
