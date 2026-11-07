@@ -1,0 +1,37 @@
+There are 28 section headers, starting at offset 0xb2a0e0:
+
+Section Headers:
+  [Nr] Name              Type            Address  Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .hash             HASH            00ee1c04 af9c04 0258b4 04   A  2   0  4
+  [ 2] .dynsym           DYNSYM          00e7c6d0 a946d0 056100 10   A  3   3  4
+  [ 3] .dynstr           STRTAB          00db0000 9c8000 0cc58c 00   A  0   0  1
+  [ 4] .gnu.version      VERSYM          00f074b8 b1f4b8 00ac20 02   A  2   0  2
+  [ 5] .gnu.version_r    VERNEED         00152a8c 152a8c 0000f0 00   A  3   7  4
+  [ 6] .rel.dyn          REL             00152b7c 152b7c 027df8 08   A  2   0  4
+  [ 7] .rel.plt          REL             00ed27d0 aea7d0 00f3e0 08  AI  2   8  4
+  [ 8] .plt              PROGBITS        00189d44 189d44 017ab4 04  AX  0   0  4
+  [ 9] .text             PROGBITS        001a1800 1a1800 446fb0 00  AX  0   0 16
+  [10] .rodata           PROGBITS        005e87b0 5e87b0 037a74 00   A  0   0 16
+  [11] .ARM.extab        PROGBITS        00620224 620224 020640 00   A  0   0  4
+  [12] .ARM.exidx        ARM_EXIDX       00640864 640864 01beb0 00  AL  9   0  4
+  [13] .init_array       INIT_ARRAY      006604b0 6604b0 000254 00  WA  0   0  4
+  [14] .fini_array       FINI_ARRAY      00660704 660704 00000c 00  WA  0   0  4
+  [15] .data.rel.ro      PROGBITS        00660710 660710 00dc90 00  WA  0   0 16
+  [16] .dynamic          DYNAMIC         00e7c590 a94590 000140 08  WA  3   0  4
+  [17] .got              PROGBITS        0066e4d8 66e4d8 00bb20 04  WA  0   0  4
+  [18] .data             PROGBITS        0067a000 67a000 038d85 00  WA  0   0 16
+  [19] .bss              NOBITS          006b2dc0 6b2d85 3e6230 00  WA  0   0 64
+  [20] .comment          PROGBITS        00000000 6b2d85 000064 01  MS  0   0  1
+  [21] .ARM.attributes   ARM_ATTRIBUTES  00000000 6b2de9 00003d 00      0   0  1
+  [22] .gnu_debuglink    PROGBITS        00000000 6b2e26 000010 00      0   0  1
+  [23] .shstrtab         STRTAB          00000000 6b32d0 000125 00      0   0  1
+  [24] .fastman92.code   PROGBITS        00da8000 9c0000 000014 00  AX  0   0  8
+  [25] .fastman92.got    PROGBITS        00ee1bc0 af9bc0 000020 00  WA  0   0  0
+  [26] .fastman92.data   PROGBITS        00ee1be0 af9be0 000024 00   A  0   0 16
+  [27] .fastman92.trampolines NULL       00aa8000 6c0000 300000 00  AX  0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  R (retain), y (purecode), p (processor specific)
